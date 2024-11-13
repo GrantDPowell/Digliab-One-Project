@@ -61,9 +61,9 @@ The Digilab One system integrates multiple technologies to provide a seamless us
 
 1.  **Web Application**: Built with Next.js, React, and TypeScript, the web app serves as the user interface for controlling and monitoring the Digilab One hardware.
 
-2.  **Server-Side Operations**: Node.js powers the backend, handling requests, encryption, and database interactions.
+2.  **Server-Side Operations**: A Routerless API facilitates POST's.
 
-3.  **Database**: PostgreSQL stores device UUIDs, user data, and encrypted truth tables.
+3.  **Database**: PostgreSQL stores device UUIDs, QC data.
 
 4.  **Encryption Protocols**: CHACHA20 ensures that .digilab files and communications maintain academic integrity.
 
@@ -139,6 +139,7 @@ Acknowledgements
 ----------------
 
 -   **Professor Rolland Howell**: For invaluable feedback and support during development.
+-   **Team Cpen**: For initially creating the idea in our senior capstone.
 -   **Parleii LLC**: For rebranding and expanding the project's potential.
 -   **University of Tennessee at Chattanooga**: For providing the initial platform for development.
 
