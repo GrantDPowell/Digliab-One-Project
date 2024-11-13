@@ -15,6 +15,7 @@ Table of Contents
 -   [Architecture Overview](#architecture-overview)
 -   [Getting Started](#getting-started)
 -   [Usage](#usage)
+-   [Additional Resources](#additional-resources)
 -   [Acknowledgements](#acknowledgements)
 
 Features
@@ -43,6 +44,7 @@ Technologies Used
 
 -   **Node.js**: Server-side JavaScript runtime environment.
 -   **Next.js**: React framework for building web applications.
+-   **ShadCN UI**: UI component library used as a base for the web app UI.
 -   **React**: JavaScript library for building user interfaces.
 -   **TypeScript**: Typed superset of JavaScript for improved code quality.
 -   **PostgreSQL**: Relational database for storing device UUIDs and user data.
@@ -50,6 +52,7 @@ Technologies Used
 -   **Serial Communication**: Manages data exchange between the web app and hardware.
 -   **CH340 Driver**: Enables USB-to-serial communication with the microcontroller.
 -   **ATMEGA328P Microcontroller**: Handles hardware-level operations.
+-   **C**: Firmware for the hardware written in the C language.
 
 Architecture Overview
 ---------------------
@@ -82,9 +85,7 @@ Getting Started
 
 The Digilab One software is available as a web application. You can access it using the following link:
 
-Digilab One Web App
-
-*Note: Replace the URL with the actual link to the web app.*
+[Digilab One Web App](https://digilab.parleii.com)
 
 Usage
 -----
@@ -97,7 +98,7 @@ Usage
     -   Ensure the CH340 driver is installed.
 2.  **Web App Interface**
 
-    -   Open the Digilab One web app in your browser.
+    -   Open the [Digilab One Web App](https://digilab.parleii.com) in your browser.
     -   The web app will prompt you to select your device.
     -   If multiple devices are listed, unplug and reconnect to identify yours.
 
@@ -128,6 +129,12 @@ Monitor real-time status of lights, switches, and the 7-segment display directly
 -   **Define Sequences**: Test state machines by defining sequences and expected outputs.
 -   **Automated Clock Control**: The software toggles the clock and inputs to test your state machine.
 
+Additional Resources
+--------------------
+
+-   **Documentation**: Detailed guides and FAQs are available at [docs.parleii.com](https://docs.parleii.com).
+-   **Purchase Hardware**: Digilab One devices can be purchased at [store.parleii.com](https://store.parleii.com).
+
 Acknowledgements
 ----------------
 
@@ -137,4 +144,4 @@ Acknowledgements
 
 * * * * *
 
-*For more detailed documentation, please refer to the official Digilab One documentation available through the web app.*
+*For more detailed documentation, please refer to the [official Digilab One documentation](https://docs.parleii.com) available through the web app.*
